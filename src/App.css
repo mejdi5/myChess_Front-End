@@ -1,0 +1,182 @@
+.App {
+    background-color:rgb(69, 126, 92);
+    height: 735px;
+    overflow-y:hidden;
+}
+
+.home{
+    max-height: 678px;
+    width: 100%;
+    background-color:rgb(69, 126, 92);
+    text-align: center;
+    overflow-y: scroll;
+}
+
+.boardImg{
+    width: 50%;
+    margin-top: 80px;
+}
+
+.introduction{
+    margin-top: 40px;
+    margin-left: 50px;
+    color: rgb(46, 4, 70);
+    width:90%;
+    text-align: justify;
+}
+
+.spinner {
+    margin-top: 40px;
+    color: rgb(255, 238, 0)
+}
+
+.card_container {
+    margin-top: 100px;
+}
+
+.cards {
+    display: grid;
+    display: flex;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 50%;
+    display:inline-block;
+}
+
+.card_picture {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.g-login{
+    margin-left: 30%;
+}
+
+.user_title {
+    display:flex;
+    align-items: center;
+}
+
+.user_name {
+    color: white;
+    text-align: center;
+}
+
+.user_picture {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.opponent_picture {
+    width: 40px;
+    height: 35px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.opponent{
+    display: flex;
+    align-items: center;
+}
+
+.newGame_button{
+    margin-right: 0%;
+}
+
+.opponent_modal{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    border: 1px solid green
+}
+
+.sidebar {
+    background-color: black;
+    display: inline;
+    height: 678px
+}
+
+.sidebarLink:hover {
+    background-color:#146d32;
+}
+
+.sidebarLinkNotification {
+    background-color: chocolate;
+    display:flex;
+}
+
+.profile {
+    background-color: rgb(69, 126, 92);
+    height: 680px;
+    display:block;
+    overflow-y: scroll;
+}
+
+.profile_card {
+    height: 100%;
+    width:90%;
+    margin: 50px;
+}
+
+.profile_picture{
+    width:30%;
+    height:30%;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.games {
+    overflow-y: scroll;
+}
+
+@media(min-width:900px) {
+.chessboard{
+    width: 80%;
+    height:100%;
+    justify-content: space-around;
+    align-content: center;
+    margin-left: 25%;
+    display:flex;
+    flex-direction: column;
+    align-content: space-around;
+}}
+
+.games {
+    display: inline-block;
+    width:100%;
+    height: 680px;
+}
+
+.no_invitations {
+        margin: 40%;
+        text-shadow: 2px 2px;
+        width: 600px;
+        height: 150px;
+        -ms-transform: skewY(15deg); 
+        transform: skewY(20deg);
+}
+
+.no_games {
+    margin-left: 30%;
+    margin-top: 20%;
+    text-shadow: 2px 2px;
+    width: 600px;
+    height: 150px;
+    -ms-transform: skewY(15deg); 
+    transform: skewY(20deg);
+}
